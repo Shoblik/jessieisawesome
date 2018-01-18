@@ -32,6 +32,11 @@ h1 {
     display: inline-block;
 }
 @media only screen and (max-width: 500px) {
+
+    h1 {
+        font-size: 3.3rem;
+    }
+
     .img {
         background-image: url('images/jessieProfile.PNG');
         background-size: 100%;
@@ -52,6 +57,7 @@ h1 {
         position: relative;
         left: 50%;
         transform: translateX(-50%);
+        border: 2px solid black;
     }
 }
 
