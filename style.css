@@ -17,14 +17,12 @@ h1 {
 	border: 10px solid white;
 }
 .imgContainer {
-    height: 50vh;
+    height: 50vh;    
     width: 40vw;
     text-align: center;
     margin: auto;
 }
-@media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px) {
+@media only screen and (max-width: 500px) {
     .img {
         background-image: url('images/jessieProfile.PNG');
         background-size: 100%;
