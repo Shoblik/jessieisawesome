@@ -31,6 +31,25 @@ h1 {
     height: 40vh;
     display: inline-block;
 }
+
+.rightColumn {
+    background-color: rgba(0,0,0, .6);
+    display: inline-block;
+    height: 40vh;
+    width: 35vw;
+    position: relative;
+    top: 12vh;
+    color: white;
+    vertical-align: top;
+}
+p {
+    margin: 0 10px 0 10px;
+    position: relative;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+}
+
 @media only screen and (max-width: 500px) {
 
     h1 {
@@ -58,6 +77,19 @@ h1 {
         left: 50%;
         transform: translateX(-50%);
         border: 2px solid black;
+    }
+    .rightColumn {
+        display: block;
+        margin: 10px auto;
+        width: 80vw;
+        height: auto;
+        top: 0;
+    }
+    p {
+        top: 0;
+        left: 47%;
+        transform: translateX(-50%);
+        margin: 10px;
     }
 }
 
