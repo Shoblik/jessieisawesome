@@ -43,11 +43,20 @@ h1 {
     color: white;
     vertical-align: top;
 }
-p {
-    margin: 0 10px 0 10px;
+h6 {
+    font-size: 118%;
+    font-family: 'Nunito', sans-serif;
+    margin: 10px;
+    font-weight: 100;
+    /*position: relative;*/
+    /*top: 50%;*/
+    /*left: 48%;*/
+    /*transform: translate(-50%,-50%);*/
+}
+.text-container {
     position: relative;
     top: 50%;
-    left: 48%;
+    left: 50%;
     transform: translate(-50%,-50%);
 }
 
@@ -86,11 +95,13 @@ p {
         height: auto;
         top: 0;
     }
-    p {
+    h6 {
+        padding: 10px;
+    }
+    .text-container {
         top: 0;
-        left: 47%;
-        transform: translateX(-50%);
-        margin: 10px;
+        left: 0;
+        transform: none;
     }
 }
 
